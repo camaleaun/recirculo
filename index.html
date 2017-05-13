@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt" manifest="recirculo.appcache">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recírculo</title>
+    <meta name="application-name" content="Recírculo">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#initial" aria-controls="initial" role="tab" data-toggle="tab">Recírculo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li role="presentation" class="active"><a href="#initial" aria-controls="initial" role="tab" data-toggle="tab">Início <span class="sr-only">(atual)</span></a></li>
+            <li role="presentation"><a href="#glass" aria-controls="glass" role="tab" data-toggle="tab">Vídro</a></li>
+            <li role="presentation"><a href="#paper" aria-controls="paper" role="tab" data-toggle="tab">Papel</a></li>
+            <li role="presentation"><a href="#metal" aria-controls="metal" role="tab" data-toggle="tab">Metal</a></li>
+            <li role="presentation"><a href="#plastic" aria-controls="plastic" role="tab" data-toggle="tab">Plástico</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="initial">
+          <h1>Início</h1>
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="#glass" aria-controls="glass" role="tab" data-toggle="tab">Vídro</a></li>
+            <li role="presentation"><a href="#paper" aria-controls="paper" role="tab" data-toggle="tab">Papel</a></li>
+            <li role="presentation"><a href="#metal" aria-controls="metal" role="tab" data-toggle="tab">Metal</a></li>
+            <li role="presentation"><a href="#plastic" aria-controls="plastic" role="tab" data-toggle="tab">Plástico</a></li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="glass">
+          <h1>Vidro</h1>
+          <ul>
+            <li>
+              Potes de alimentos
+              <ul>
+                <li>Azeitonas</li>
+                <li>Milho</li>
+                <li>Requeijão</li>
+                <li>(...)</li>
+              </ul>
+            </li>
+            <li>Garrafas</li>
+            <li>Frascos de medicamentos</li>
+            <li>Cacos de vidro</li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="paper">
+          <h1>Papel</h1>
+          <ul>
+            <li>Jornais</li>
+            <li>Revistas</li>
+            <li>Folhetos</li>
+            <li>Caixas de papelão</li>
+            <li>Embalagens de papel</li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="metal">
+          <h1>Metal</h1>
+          <ul>
+            <li>Latas de alumínio</li>
+            <li>Latas de aço</li>
+            <li>Pregos</li>
+            <li>Tampas</li>
+            <li>Tubos de pasta</li>
+            <li>Cobre</li>
+            <li>Alumínio</li>
+          </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="plastic">
+          <h1>Plástico</h1>
+          <ul>
+            <li>Potes de plástico</li>
+            <li>Garrafas PET</li>
+            <li>Sacos pláticos</li>
+            <li>Embalagens</li>
+            <li>Sacolas de supermercado</li>
+            <li><b>EPS (isopor®)</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
